@@ -1,0 +1,11 @@
+language: python
+env:
+  matrix:
+  - JOB=j1
+  - JOB=j2
+  global:
+  - CKCK_GLOBAL=1
+
+script:
+- echo $JOB
+- echo $CKCK_GLOBAL
