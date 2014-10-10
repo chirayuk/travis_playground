@@ -9,3 +9,4 @@ env:
 script:
 - echo $JOB
 - echo $CKCK_GLOBAL
+- env
